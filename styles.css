@@ -1,0 +1,67 @@
+/* styles.css */
+@font-face {
+    font-family: 'Digital-7';
+    src: url('digital-7.ttf') format('truetype'); /* Ensure your digital-7.ttf font file is in the same directory as your CSS */
+}
+
+body, html {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #32529B; /* Royal Blue background */
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc; /* Subtle border for container */
+	color: white;
+}
+
+.header img {
+    margin-top: 10px; /* Adjust based on actual logo size */
+}
+
+.timer {
+    font-size: 2.5em;
+    font-family: 'Digital-7', monospace; /* Digital clock font for the timer */
+    color: #C5FB4B; /* Lime green text */
+    background-color: #000; /* Black background for the timer box */
+    border: 2px solid #FFF; /* White border */
+    padding: 10px;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px 2px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    min-width: 130px; /* Ensure buttons do not shrink */
+}
+
+.control-buttons button {
+    background-color: #FFC525; /* Green background */
+    color: #000000; /* White text */
+    width: 90%;
+}
+
+.event-buttons .event-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.event-buttons button {
+    background-color: #FFF; /* White background */
+    color: #000; /* Black text */
+    width: 48%; /* Adjusted width for side-by-side layout */
+.event-log {
+	color: #FFF;
+}
+
+<div id="eventLog" class="event-log"><div>00:03 - Goal (Stranraer)</div><div>00:04 - Goal (Stranraer)</div><div>00:04 - Goal (Stranraer)</div><div>00:05 - Goal (Stranraer)</div></div>

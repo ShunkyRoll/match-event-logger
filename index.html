@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match Event Logger</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="SFC LIVE 7 transparent 2.png" alt="Club Logo" style="width: 100px; height: 50px;">
+        </header>
+        <div id="timerDisplay" class="timer">00:00</div>
+        <div class="control-buttons">
+            <button id="firstHalfBtn">Start 1st Half</button>
+            <button id="secondHalfBtn">Start 2nd Half</button>
+        </div>
+        <div class="event-buttons">
+            <div class="event-row">
+                <button class="eventBtn" data-event="Goal (Stranraer)">Goal (Stranraer)</button>
+                <button class="eventBtn" data-event="Goal (Opposition)">Goal (Opposition)</button>
+            </div>
+            <div class="event-row">
+                <button class="eventBtn" data-event="Chance (Stranraer)">Chance (Stranraer)</button>
+                <button class="eventBtn" data-event="Chance (Opposition)">Chance (Opposition)</button>
+            </div>
+            <div class="event-row">
+                <button class="eventBtn" data-event="Booking (Stranraer)">Booking (Stranraer)</button>
+                <button class="eventBtn" data-event="Booking (Opposition)">Booking (Opposition)</button>
+            </div>
+            <div class="event-row">
+                <button class="eventBtn" data-event="Incident (Stranraer)">Incident (Stranraer)</button>
+                <button class="eventBtn" data-event="Incident (Opposition)">Incident (Opposition)</button>
+            </div>
+            <div class="event-row">
+                <button class="eventBtn" data-event="Red Card (Stranraer)">Red Card (Stranraer)</button>
+                <button class="eventBtn" data-event="Red Card (Opposition)">Red Card (Opposition)</button>
+            </div>
+            <div class="event-row">
+                <button class="eventBtn" data-event="Funny (Stranraer)">Funny (Stranraer)</button>
+                <button class="eventBtn" data-event="Funny (Opposition)">Funny (Opposition)</button>
+            </div>
+        </div>
+        <div class="save-log">
+            <button id="saveLogBtn">Save Log</button>
+        </div>
+        <div id="eventLog" class="event-log"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
